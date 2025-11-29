@@ -10,8 +10,8 @@ void remove_int(int arr[], int size, int target)
         if (arr[i] != target){
              
             arr[j] = arr[i]; 
-        }
             j++;
+        }
     }
 
     while (j < size)
